@@ -21,10 +21,11 @@ public class MainActivity extends AppCompatActivity {
                 "A natureza não dá saltos.",
                 "Nem todas as tempestades vêm para atrapalhar a sua vida. Algumas vêm para limpar seu caminho.",
                 "A persistência realiza o impossível.",
-                "Não se desespere quando a caminhada estiver difícil, é sinal de que você está no caminho certo."
+                "Não se desespere quando a caminhada estiver difícil, é sinal de que você está no caminho certo.",
+                "adasdasdasdasd"
         };
 
-        int i = new Random().nextInt(4);
+        int i = new Random().nextInt(5);
 
         TextView texto = findViewById(R.id.fraseDoDia);
         texto.setText(frases[i]);
