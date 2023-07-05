@@ -18,10 +18,10 @@ public class MainActivity extends AppCompatActivity {
     public void gerarNovaFrase(View view){
 
         String [] frases = {
-                "F1",
-                "F2",
-                "F3",
-                "F4"
+                "A natureza não dá saltos.",
+                "Nem todas as tempestades vêm para atrapalhar a sua vida. Algumas vêm para limpar seu caminho.",
+                "A persistência realiza o impossível.",
+                "Não se desespere quando a caminhada estiver difícil, é sinal de que você está no caminho certo."
         };
 
         int i = new Random().nextInt(4);
