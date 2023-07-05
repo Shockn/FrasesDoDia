@@ -22,7 +22,8 @@ public class MainActivity extends AppCompatActivity {
                 "Nem todas as tempestades vêm para atrapalhar a sua vida. Algumas vêm para limpar seu caminho.",
                 "A persistência realiza o impossível.",
                 "Não se desespere quando a caminhada estiver difícil, é sinal de que você está no caminho certo.",
-                "adasdasdasdasd"
+                "adasdasdasdasd",
+                "oi"
         };
 
         int i = new Random().nextInt(5);
